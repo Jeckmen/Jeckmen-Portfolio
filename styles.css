@@ -1,0 +1,30 @@
+h1 {
+    color: red;
+}
+
+h2 {
+    color: teal;
+}
+
+ol {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: aqua;
+}
+
+
+/* #title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: darkslategray;
+} */
+
+img {
+    width: 10vh;
+    height: 10vh;
+    
+}
