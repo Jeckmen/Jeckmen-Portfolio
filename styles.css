@@ -53,8 +53,39 @@ img {
 .nav {
     background-color: aqua;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: aquamarine;
+    overflow: hidden
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: blueviolet;
+    transition: 1s;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+.active {
+    color: blue;
+}
+
+.footer {
+    background-color: aqua;
 }
