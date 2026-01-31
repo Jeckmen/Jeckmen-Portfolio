@@ -12,8 +12,23 @@ ol {
 }
 
 body {
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    background: wheat;
+    animation: colourchange 10s infinite alternate-reverse;
     padding: 20px;
+}
+@keyframes colourchange {
+  0% {background-color: rgb(255, 205, 205);}
+  10% {background-color: rgb(255, 131, 122);}
+  20% {background-color: rgb(253, 212, 159);}
+  30% {background-color: rgb(251, 181, 88);}
+  40% {background-color: rgb(255, 251, 179);}
+  50% {background-color: rgb(201, 255, 179);}
+  60% {background-color: rgb(77, 212, 65);}
+  70% {background-color: rgb(179, 244, 255);}
+  80% {background-color: rgb(179, 214, 255);}
+  90% {background-color: rgb(230, 179, 255);}
+  100% {background-color: rgb(3, 3, 3);}
 }
 
 p {
@@ -79,13 +94,25 @@ ul li a:hover {
     transition: 1s;
     font-size: larger;
     font-weight: bold;
-    
 }
 
 .active {
     color: blue;
 }
 
-.footer {
+.footer{
+    display: flex;
     background-color: aqua;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    
 }
+
+a {
+    display: flex;
+    color: white;
+    /* text-align: left; */
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
