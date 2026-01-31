@@ -12,7 +12,7 @@ ol {
 }
 
 body {
-    background-color: aqua;
+    background-color: whitesmoke;
     padding: 20px;
 }
 
@@ -40,12 +40,21 @@ img {
 }
 
 .smallgif {
-    width: 100vh;
-    height: 70vh;
+    width: 10vh;
+    height: 7vh;
 }
 
 .column {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.nav {
+    background-color: aqua;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
