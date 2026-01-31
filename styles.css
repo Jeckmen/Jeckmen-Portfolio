@@ -1,5 +1,6 @@
 h1 {
     color: red;
+    padding: 0px 50px;
 }
 
 h2 {
@@ -11,12 +12,13 @@ ol {
     font-family: 'Courier New', Courier, monospace;
 }
 
-body {
+.home {
     /* background-color: whitesmoke; */
-    background: wheat;
+    color: wheat;
     animation: colourchange 10s infinite alternate-reverse;
     padding: 20px;
 }
+
 @keyframes colourchange {
   0% {background-color: rgb(255, 205, 205);}
   10% {background-color: rgb(255, 131, 122);}
@@ -32,7 +34,22 @@ body {
 }
 
 p {
-    color: blue;
+    animation: colourchangetext 2s infinite alternate-reverse;
+    font-weight: bold;
+}
+
+@keyframes colourchangetext {
+  0% {color: rgb(255, 205, 205);}
+  10% {color: rgb(255, 131, 122);}
+  20% {color: rgb(253, 212, 159);}
+  30% {color: rgb(251, 181, 88);}
+  40% {color: rgb(255, 251, 179);}
+  50% {color: rgb(201, 255, 179);}
+  60% {color: rgb(77, 212, 65);}
+  70% {color: rgb(179, 244, 255);}
+  80% {color: rgb(179, 214, 255);}
+  90% {color: rgb(230, 179, 255);}
+  100% {color: rgb(3, 3, 3);}
 }
 
 
@@ -62,7 +79,10 @@ img {
 .column {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0px 50px 50px;
+    width: 80vh;
+    height: 60vh;
 }
 
 .nav {
@@ -89,7 +109,7 @@ ul li a {
     text-decoration: none;
 }
 
-ul li a:hover {
+a:hover {
     background-color: blueviolet;
     transition: 1s;
     font-size: larger;
@@ -116,3 +136,7 @@ a {
     text-decoration: none;
 }
 
+.profile {
+    width: 35vh;
+    height: 50vh;
+}
