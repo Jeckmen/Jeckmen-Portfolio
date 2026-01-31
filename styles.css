@@ -13,6 +13,11 @@ ol {
 
 body {
     background-color: aqua;
+    padding: 20px;
+}
+
+p {
+    color: blue;
 }
 
 
@@ -26,5 +31,21 @@ body {
 img {
     width: 10vh;
     height: 10vh;
-    
-},,
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.smallgif {
+    width: 100vh;
+    height: 70vh;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
